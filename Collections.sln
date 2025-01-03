@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListPerformance", "ListPerformance\ListPerformance.csproj", "{B5294059-4093-4D0B-98D5-0A09EC5ACA14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListPerformance", "LinkedListPerformance\LinkedListPerformance.csproj", "{A5D812DD-2108-4B70-ACB9-DAF711C99FD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B5294059-4093-4D0B-98D5-0A09EC5ACA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5294059-4093-4D0B-98D5-0A09EC5ACA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5294059-4093-4D0B-98D5-0A09EC5ACA14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5D812DD-2108-4B70-ACB9-DAF711C99FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D812DD-2108-4B70-ACB9-DAF711C99FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D812DD-2108-4B70-ACB9-DAF711C99FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D812DD-2108-4B70-ACB9-DAF711C99FD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
