@@ -15,10 +15,20 @@ internal class Program
 
         try
         {
-            while (true) { }
+            using (StreamReader sr = new StreamReader(filePath))
+            {
+                string line;
+                while ((line = sr.ReadLine()) != null) 
+                { 
+                    textList.Add(line);
+                }
+            }
         }
-        catch (Exception ex) { }
+        catch (Exception ex) 
+        { 
+            Console.WriteLine($"exeption: {ex.ToString()}");
+        }
 
-        Console.WriteLine("тут будет че то умное");
+        Console.WriteLine($"{textList.Count} elements in {sw.ElapsedMilliseconds} ms");
 }
 }
