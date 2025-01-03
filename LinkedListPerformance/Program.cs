@@ -9,7 +9,7 @@ internal class Program
         string fileName = "input.txt";
         string filePath = Path.Combine(desktopPath, fileName);
 
-        List<string> textList = new List<string>();
+        LinkedList<string> textLinkedList = new LinkedList<string>();
 
         Stopwatch sw = Stopwatch.StartNew();
 
@@ -20,15 +20,16 @@ internal class Program
                 string line;
                 while ((line = sr.ReadLine()) != null)
                 {
-                    textList.Add(line);
+                    textLinkedList.AddLast(line); 
                 }
             }
         }
         catch (Exception ex)
         {
             Console.WriteLine($"exeption: {ex.ToString()}");
+            return; // слышала тут ретерн вроде нужен, точно не помню
         }
 
-        Console.WriteLine($"{textList.Count} elements in {sw.ElapsedMilliseconds} ms");
+        Console.WriteLine($"{textLinkedList.Count} elements in {sw.ElapsedMilliseconds} ms");
     }
 }
