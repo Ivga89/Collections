@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListPerformance", "ListPerf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListPerformance", "LinkedListPerformance\LinkedListPerformance.csproj", "{A5D812DD-2108-4B70-ACB9-DAF711C99FD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrequentlyWords", "FrequentlyWords\FrequentlyWords.csproj", "{893C1D3C-CE9A-449B-8BAD-77E224A3417C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A5D812DD-2108-4B70-ACB9-DAF711C99FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5D812DD-2108-4B70-ACB9-DAF711C99FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5D812DD-2108-4B70-ACB9-DAF711C99FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{893C1D3C-CE9A-449B-8BAD-77E224A3417C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{893C1D3C-CE9A-449B-8BAD-77E224A3417C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{893C1D3C-CE9A-449B-8BAD-77E224A3417C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{893C1D3C-CE9A-449B-8BAD-77E224A3417C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
